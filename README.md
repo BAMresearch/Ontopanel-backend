@@ -18,11 +18,11 @@ EntityManager is a tool that allows user to upload their ontologies and export e
 
 ### Convertor:
 
-Convertor is a tool that validates current graph and convert it into diagrams.net into OWL. It can also realize data mapping.
+Convertor is a tool that validates current graph and convert it into diagrams.net into OWL. It can also realize data mapping -- to combine experimental dataset with the method graph.
 
 ## Backend
 
-This project is the backend of Ontopanel and communicates with [Ontopanel-frontend](). Diagrams.net provides permission to add plugins so that users can load the Ontopanel interface. Please follow the tutorial of [Ontopanel-frontend]() to set up the frontend.
+This project is the backend of Ontopanel and communicates with [Ontopanel-frontend](). Diagrams.net provides permission to add plugins so that users can load the Ontopanel interface. Please follow the tutorial of [Ontopanel-frontend](https://github.com/yuechenbam/Ontopanel-frontend) to set up the frontend.
 
 ## Installation
 
@@ -79,12 +79,18 @@ python manage.py runserver
 
 [Ontopanel online demo](https://yuechenbam.github.io/src/main/webapp/index.html) - diagrams.net, contains the Ontopanel plugin hosted on the GithubPage.
 
-[Ontopanel-fontend]() - Ontopanel's frontend source code.
+[Ontopanel-fontend](https://github.com/yuechenbam/Ontopanel-frontend) - Ontopanel's frontend source code.
 
 ## Documentation
 
 [Swagger API documentation](https://ontopanel.herokuapp.com/swagger)
 
+## Publications
+
+[Ontopanel: A Tool for Domain Experts Facilitating Visual Ontology Development and Mapping for FAIR Data Sharing in Materials Testing](https://link.springer.com/article/10.1007/s40192-022-00279-y)
+
 ## Contact
 
 Yue Chen (yue.chen@bam.de)
+
+Markus Schilling (Markus.Schilling@bam.de)
